@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "expoWeb": "yarn path && cd start-expo && yarn web",
+    "path": "export PATH=/$PATH:/.npm-global/bin"
   },
   "dependencies": {},
   "devDependencies": {
