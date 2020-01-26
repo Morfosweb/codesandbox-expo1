@@ -2,9 +2,9 @@
   "name": "expo-teste1",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "Readme.txt",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon node-sever/index.js"
   },
   "dependencies": {},
   "devDependencies": {
