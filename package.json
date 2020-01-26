@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "startExpo": "cd start-expo && yarn web"
   },
   "dependencies": {},
   "devDependencies": {
