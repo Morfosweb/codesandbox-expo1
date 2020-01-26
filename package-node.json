@@ -1,0 +1,14 @@
+{
+  "name": "expo-teste2b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Readme.txt",
+  "scripts": {
+    "start": "nodemon node-sever/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
