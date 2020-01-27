@@ -2,12 +2,15 @@
   "name": "node-http-server",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "package.json",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "startExpo": "cd start-expo && yarn web",
-    "androidApk": "cd start-expo && yarn androidApk",
-    "installExpo": "mkdir /.npm-global && npm config set prefix /.npm-global && export PATH=/$PATH:/.npm-global/bin && npm install -g expo-cli && expo -V"
+    "start": "yarn start:node",
+    "start:node": "nodemon src/index.js",
+    "start:expo": "yarn expo:install && yarn expo:packs && yarn expo:web",
+    "expo:install": "mkdir /.npm-global && npm config set prefix /.npm-global && export PATH=/$PATH:/.npm-global/bin && npm install -g expo-cli && expo -V",
+    "expo:packs": "cd start-expo && yarn",
+    "expo:web": "cd start-expo && yarn web",
+    "androidApk": "cd start-expo && yarn androidApk"
   },
   "dependencies": {},
   "devDependencies": {

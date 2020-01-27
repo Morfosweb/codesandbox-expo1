@@ -1,12 +1,9 @@
 > > > > > > > > > > > > > > > >
 
 
+Restart Container - yarn start:expo
 
-Passo 1 - cd start-expo && yarn
-Passo 2 - yarn installExpo
-Passo 3 - expo login
-Passo 4 - yarn startExpo
-Passo 5 - yarn androidApk
+Android - yarn androidApk
 
 
 mkdir /.npm-global && npm config set prefix /.npm-global && export PATH=/$PATH:/.npm-global/bin && npm install -g expo-cli && expo -V
